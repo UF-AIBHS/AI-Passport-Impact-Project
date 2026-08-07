@@ -8,4 +8,4 @@
 
 **Plan:** Group mtsamples reports by note type, compute character/word/token counts per report as in proj2, then compare the token-per-word ratio distribution across note types with box plots. A higher ratio flags note types where clinical vocabulary fragments more heavily under tokenization.
 
-[← Back to all projects](projects.md)
+[← Back to all projects](index.md)

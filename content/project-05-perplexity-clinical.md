@@ -8,4 +8,4 @@
 
 **Plan:** Compute per-token perplexity across mtsamples sentences as in proj20, then compare perplexity distributions between jargon-heavy spans (drug names, procedures) and matched plain-English spans. Track whether perplexity on clinical spans decreases within a report as context accumulates.
 
-[← Back to all projects](projects.md)
+[← Back to all projects](index.md)

@@ -8,4 +8,4 @@
 
 **Plan:** Embed the warnings/indications section of each label, build the all-to-all cosine similarity matrix as in proj8, and visualize it as a heatmap/dendrogram. Overlay drug class and black-box-warning status to see which grouping the embedding space actually reflects.
 
-[← Back to all projects](projects.md)
+[← Back to all projects](index.md)

@@ -8,4 +8,4 @@
 
 **Plan:** Pick a single BioASQ yes/no question. Tokenize it (Project 1's method) to see how the question is chunked, trace embedding similarity across its clauses (Project 3's method) to find where the question's semantic focus shifts, visualize attention onto the clause containing the answer-bearing evidence (Project 7's method), and inject layer-specific noise (Project 6's method) to find where the yes/no decision becomes fixed. Present the four views together as a single audit trail for one question.
 
-[← Back to all projects](projects.md)
+[← Back to all projects](index.md)

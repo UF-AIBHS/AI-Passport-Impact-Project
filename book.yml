@@ -19,8 +19,6 @@ launch_buttons:
 toc:
   - file: content/index.md
     title: Home
-  - file: content/projects.md
-    title: 10 Health-Science ML4LLM Projects
   - file: content/project-01-tokenizer-jargon.md
     title: "1. Tokenizer stress-test on medical jargon"
   - file: content/project-02-verbosity-drift.md
