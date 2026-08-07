@@ -1,0 +1,45 @@
+title: "UF AI Passport Projects"
+description: "Mini-projects and open datasets for the UF AI Passport for Health Science, paired with the ML4LLM book."
+authors:
+  - name: Saurabh Ranjan
+
+repo: https://github.com/UF-AIBHS/ai.passport.projects
+branch: main
+
+theme:
+  palette:
+    primary: "#005496" # UF Health Blue (PMS 287)
+    accent: "#F37021"  # UF Health Orange (PMS 172)
+
+launch_buttons:
+  molab: false
+  github: true
+  download: false
+
+toc:
+  - file: content/index.md
+    title: Home
+  - section: 10 Health-Science ML4LLM Projects
+    children:
+      - file: content/projects.md
+        title: Overview
+      - file: content/project-01-tokenizer-jargon.md
+        title: "1. Tokenizer stress-test on medical jargon"
+      - file: content/project-02-verbosity-drift.md
+        title: "2. Verbosity drift across note types"
+      - file: content/project-03-topic-drift-chat.md
+        title: "3. Topic drift in patient–doctor chat"
+      - file: content/project-04-drug-label-clusters.md
+        title: "4. Drug-label embedding clusters"
+      - file: content/project-05-perplexity-clinical.md
+        title: "5. Perplexity of clinical language"
+      - file: content/project-06-layer-diagnosis.md
+        title: "6. Which layer \"knows\" the diagnosis"
+      - file: content/project-07-attention-symptoms.md
+        title: "7. Attention to symptom keywords"
+      - file: content/project-08-radiology-position.md
+        title: "8. Structural position of radiology findings"
+      - file: content/project-09-health-literacy-gap.md
+        title: "9. Health-literacy gap as embedding distance"
+      - file: content/project-10-capstone.md
+        title: "10. Capstone: full mechanism audit"
