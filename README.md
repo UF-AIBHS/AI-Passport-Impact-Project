@@ -1,4 +1,4 @@
-# UF AI Passport — Projects Garden
+# UF AI Passport Projects Resources
 
 Mini-projects and open datasets for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book).
 
