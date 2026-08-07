@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Tokenizer stress-test on medical jargon"}
 ---
 
 # Project 1: Tokenizer stress-test on medical jargon

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Verbosity drift across note types"}
 ---
 
 # Project 2: Verbosity drift across note types

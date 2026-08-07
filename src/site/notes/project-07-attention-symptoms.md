@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Attention to symptom keywords"}
 ---
 
 # Project 7: Attention to symptom keywords

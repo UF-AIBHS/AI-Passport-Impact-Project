@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Perplexity of clinical language"}
 ---
 
 # Project 5: Perplexity of clinical language

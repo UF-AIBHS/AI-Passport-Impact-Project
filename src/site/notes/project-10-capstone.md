@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Capstone: full mechanism audit"}
 ---
 
 # Project 10: Capstone — full mechanism audit of a clinical Q&A

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["gardenEntry"]}
+{"dg-publish":true,"tags":["gardenEntry"],"title":"UF AI Passport Projects"}
 ---
 
 # UF AI Passport — Projects Garden

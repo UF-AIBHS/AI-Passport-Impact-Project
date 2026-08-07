@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Which layer \u201cknows\u201d the diagnosis"}
 ---
 
 # Project 6: Which layer "knows" the diagnosis

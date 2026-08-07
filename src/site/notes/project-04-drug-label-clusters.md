@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Drug-label embedding clusters"}
 ---
 
 # Project 4: Drug-label embedding clusters

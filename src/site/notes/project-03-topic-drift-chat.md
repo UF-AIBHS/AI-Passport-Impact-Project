@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Topic drift in patient\u2013doctor chat"}
 ---
 
 # Project 3: Topic drift in patient–doctor chat

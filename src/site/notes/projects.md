@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"10 Health-Science ML4LLM Projects"}
 ---
 
 # 10 Health-Science ML4LLM Projects

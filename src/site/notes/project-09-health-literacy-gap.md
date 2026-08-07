@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Health-literacy gap as embedding distance"}
 ---
 
 # Project 9: Health-literacy gap as embedding distance

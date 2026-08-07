@@ -30,6 +30,16 @@ jobs:
         env:
           SITE_NAME_HEADER: UF AI Passport Projects
           SITE_BASE_URL: ${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          BASE_THEME: dark
+          dgHomeLink: "true"
+          dgShowBacklinks: "true"
+          dgShowLocalGraph: "true"
+          dgShowInlineTitle: "true"
+          dgShowFileTree: "true"
+          dgEnableSearch: "true"
+          dgShowToc: "true"
+          dgLinkPreview: "true"
+          dgShowTags: "true"
       - uses: actions/configure-pages@v5
         with:
           enablement: true

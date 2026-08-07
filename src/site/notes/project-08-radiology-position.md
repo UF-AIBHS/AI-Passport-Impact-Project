@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["projects"]}
+{"dg-publish":true,"tags":["projects"],"title":"Structural position of radiology findings"}
 ---
 
 # Project 8: Structural position of radiology findings

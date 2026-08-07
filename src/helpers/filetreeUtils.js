@@ -91,7 +91,12 @@ const sortTree = (unsorted, navigationOrder, currentPath) => {
 };
 
 function getPermalinkMeta(note, key) {
-  let permalink = "/";
+  // note.url is Eleventy's actual resolved output URL for this page (e.g. set
+  // via the note layout's own `permalink:` front matter). note.data.permalink
+  // is the raw, pre-computed front matter field and is unset for every note
+  // that doesn't declare its own permalink, which used to leave every non-home
+  // entry in the file tree pointing at "/".
+  let permalink = note.url || "/";
   let parts = note.filePathStem.split("/");
   let name = parts[parts.length - 1];
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
