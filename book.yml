@@ -3,7 +3,7 @@ description: "Two tracks of mini-projects for the UF AI Passport for Health Scie
 authors:
   - name: Saurabh Ranjan
 
-repo: https://github.com/UF-AIBHS/ai.passport.projects.levels
+repo: https://github.com/UF-AIBHS/ai.passport.projects
 branch: main
 
 theme:
