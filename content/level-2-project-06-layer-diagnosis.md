@@ -8,4 +8,4 @@
 
 **Plan:** For a set of PubMedQA contexts ending in a diagnosis term, inject noise/scaling at each layer in turn as in proj27, and measure how prediction accuracy for the correct diagnosis token degrades by layer. Plot accuracy vs. layer depth to locate where diagnosis-relevant information becomes concentrated.
 
-[← Back to all projects](index.md)
+[← Back to all projects](level-2-index.md)

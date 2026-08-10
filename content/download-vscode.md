@@ -1,0 +1,22 @@
+# Get VS Code (+ agent mode)
+
+![Visual Studio Code](images/vscode-hero.png)
+
+[Visual Studio Code](https://code.visualstudio.com/) is the editor most of these projects assume. Its built-in **Copilot Chat agent mode** can plan multi-step changes, edit files, and run terminal commands directly in the editor — or you can drive the same project with the Claude Code / Codex extensions instead.
+
+## Install
+
+Download the macOS build (Intel/Apple silicon/Universal `.dmg`) from [code.visualstudio.com/download](https://code.visualstudio.com/download), or:
+
+```bash
+brew install --cask visual-studio-code
+```
+
+## Using its agent
+
+1. Open your project folder in VS Code.
+2. Open the Chat view (`⌘⇧I` on macOS) and switch the mode dropdown to **Agent**.
+3. Describe the task — for these projects, paste the brief from [Level 1](level-1-index.md) or [Level 2](level-2-index.md). Agent mode will propose file edits and terminal commands; review each before applying.
+4. Prefer a different agent? Install the [Claude Code](download-claude-code.md) or [Codex](download-codex.md) extension from the Marketplace and it runs inside the same editor.
+
+[← Back to home](index.md)

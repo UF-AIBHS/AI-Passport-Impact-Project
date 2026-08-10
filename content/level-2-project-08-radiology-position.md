@@ -8,4 +8,4 @@
 
 **Plan:** Tag finding-related sentences in Open-I reports, then compute mutual information between token position (normalized by report length) and finding-mention as in proj45. Compare against Minkowski distance between finding and non-finding token-position distributions to quantify how structured radiology reporting is.
 
-[← Back to all projects](index.md)
+[← Back to all projects](level-2-index.md)

@@ -1,25 +1,30 @@
-# UF AI Passport Projects Resources
+# UF AI Passport Project Levels
 
-Mini-projects and open datasets for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book).
+Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book). Pick a level based on what you want to build vs. what you want to understand — both are open-source end to end, no paid API required.
 
-## 10 Health-Science ML4LLM Projects
+## The two levels
 
-Ten applied mini-projects, each adapting a mechanistic-interpretability technique from [Mike X Cohen's *50 ML projects to understand LLMs*](https://github.com/saurabhr/ML4LLM_book) to open, PHI-free health-science text. No fine-tuning, no APIs — every project treats an LLM's tokens, embeddings, attention, and hidden states as data to analyze and visualize.
+| | [Level 1: Prompting](level-1-index.md) | [Level 2: Model Internals](level-2-index.md) |
+|---|---|---|
+| **What you build** | Full applications — a frontend you build by prompting an AI coding agent, a backend on open-source models | Analyses — notebooks that inspect a model's tokens, embeddings, attention, and hidden states |
+| **Model role** | A tool you call, prompt, and sometimes fine-tune | The object of study itself |
+| **Training** | Light — a few projects fine-tune a small open classifier/NER model or a LoRA adapter | None — every project treats the model as fixed and probes it |
+| **Best for** | Students who want a working app end to end | Students who want to understand *why* a model answers the way it does |
+| **Start here** | [Project 1: Medical Term Definer](level-1-project-01-medical-term-definer.md) | [Project 1: Tokenizer stress-test](level-2-project-01-tokenizer-jargon.md) |
 
-| # | Project | ML4LLM Reference | Dataset | Purpose |
-|---|---|---|---|---|
-| 1 | [Tokenizer stress-test on medical jargon](project-01-tokenizer-jargon.md) | Ch.2 · proj1 | mtsamples, CMS ICD-10-CM | How many extra tokens does a general-purpose tokenizer burn on drug names, dosages, and ICD codes vs. plain English? |
-| 2 | [Verbosity drift across note types](project-02-verbosity-drift.md) | Ch.2 · proj2 | mtsamples | Do discharge summaries, radiology reports, and visit notes differ in token-per-word ratio? |
-| 3 | [Topic drift in patient–doctor chat](project-03-topic-drift-chat.md) | Ch.3 · proj9 | MedDialog / HealthCareMagic-100k | Where does turn-to-turn embedding similarity drop, marking the symptom-gathering → diagnosis pivot? |
-| 4 | [Drug-label embedding clusters](project-04-drug-label-clusters.md) | Ch.3 · proj8 | DailyMed | Do black-box-warning drugs cluster in embedding space independent of pharmacological class? |
-| 5 | [Perplexity of clinical language](project-05-perplexity-clinical.md) | Ch.4 · proj20 | mtsamples | Is clinical jargon systematically higher-surprisal than plain English for a general-purpose LLM? |
-| 6 | [Which layer "knows" the diagnosis](project-06-layer-diagnosis.md) | Ch.5 · proj27 | PubMedQA | At what layer depth does noise injection collapse diagnosis-term prediction? |
-| 7 | [Attention to symptom keywords](project-07-attention-symptoms.md) | Ch.6 · proj35 | MedDialog | Does generation-time attention concentrate on clinically salient symptom words? |
-| 8 | [Structural position of radiology findings](project-08-radiology-position.md) | Ch.7 · proj45 | Open-I | Do "impression"/finding statements cluster at a predictable structural position? |
-| 9 | [Health-literacy gap as embedding distance](project-09-health-literacy-gap.md) | Ch.3 · proj13 | MedlinePlus vs. matched PubMed abstracts | Can the plain-language vs. clinical-language gap be measured as embedding distance? |
-| 10 | [Capstone: full mechanism audit](project-10-capstone.md) | Combines 1, 3, 6, 7 | BioASQ | Can tokenization, embedding, attention, and layer robustness together explain one model answer? |
+Both levels are 10 projects, ascending in complexity, ending in a capstone that combines everything before it.
 
-All datasets are openly downloadable with no data-use agreement, so nothing blocks a 2-week cohort on credentialing paperwork.
+## Before you start
+
+New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout.
+
+## Get an AI coding agent
+
+Level 1 projects assume you're building with one of these:
+
+- [Claude Code](download-claude-code.md) — terminal agent from Anthropic
+- [Codex](download-codex.md) — terminal agent from OpenAI
+- [VS Code agent mode](download-vscode.md) — built into the editor (Copilot Chat), or run Claude Code/Codex as an extension inside it
 
 ## Related
 

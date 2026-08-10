@@ -1,0 +1,28 @@
+# Get Claude Code
+
+![Claude Code](images/claude-code-hero.jpg)
+
+[Claude Code](https://claude.com/product/claude-code) is Anthropic's agentic coding tool. It runs in your terminal, reads and edits files in your project, runs commands, and iterates — you describe what you want in plain language and it does the work, asking before anything risky.
+
+## Install
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Then, from inside a project folder:
+
+```bash
+claude
+```
+
+Other ways in, if you'd rather stay in an editor: the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (Marketplace), JetBrains plugins, or the web at [claude.ai/code](https://claude.ai/code). Full docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview).
+
+## Using its agent on a Level 1/Level 2 project
+
+1. `cd` into your project folder and run `claude`.
+2. Paste the project brief from [Level 1](level-1-index.md) or [Level 2](level-2-index.md) and ask it to scaffold the app/notebook.
+3. Let it propose a plan before it touches files — Claude Code asks for confirmation on anything destructive (installs, deletes, pushes).
+4. Iterate: point it at failing tests or unexpected output and ask it to fix the root cause, not just silence the symptom.
+
+[← Back to home](index.md)

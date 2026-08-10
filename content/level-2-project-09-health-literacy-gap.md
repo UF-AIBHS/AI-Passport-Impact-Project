@@ -8,4 +8,4 @@
 
 **Plan:** Pair MedlinePlus consumer articles with a PubMed abstract on the same condition, embed both, and compute distance/cosine similarity as in proj13. Rank condition pairs by embedding distance to identify which topics have the largest plain-language-to-clinical-language gap.
 
-[← Back to all projects](index.md)
+[← Back to all projects](level-2-index.md)

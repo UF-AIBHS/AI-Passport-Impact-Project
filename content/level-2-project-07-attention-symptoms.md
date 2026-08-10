@@ -8,4 +8,4 @@
 
 **Plan:** Extract raw and softmax attention scores for the token generated after a symptom description, as in proj35. Overlay attention weight on the input tokens and check whether the highest-attention tokens correspond to clinically salient symptom words versus filler text.
 
-[← Back to all projects](index.md)
+[← Back to all projects](level-2-index.md)

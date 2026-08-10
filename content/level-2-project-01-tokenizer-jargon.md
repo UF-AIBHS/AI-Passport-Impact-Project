@@ -8,4 +8,4 @@
 
 **Plan:** Run the same set of mtsamples sentences through several tokenization schemes (word-level, BPE, WordPiece) as in proj1, then compare token counts on drug-name/dosage spans against matched plain-English spans. Plot token-per-character ratio by category (drug name, dosage, ICD code, plain prose) to show where general-purpose tokenizers fragment medical vocabulary most.
 
-[← Back to all projects](index.md)
+[← Back to all projects](level-2-index.md)

@@ -1,13 +1,13 @@
-# UF AI Passport Projects Resources
+# UF AI Passport Project Levels
 
-Mini-projects and open datasets for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book).
+Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/): Level 1 (build apps by prompting an AI coding agent) and Level 2 (analyze model internals on medical text, taken from [ai.passport.projects](https://github.com/UF-AIBHS/ai.passport.projects)).
 
 Built with [marimo-book](https://marimobook.org/).
 
 ## Local development
 
 ```bash
-python3 -m venv .venv
+python3.13 -m venv .venv  # marimo-book requires Python >=3.11
 .venv/bin/pip install marimo-book
 
 # Live-reload dev server
@@ -19,16 +19,16 @@ python3 -m venv .venv
 # Validate book.yml + content without building
 .venv/bin/marimo-book check
 
-# book.yml has no custom-CSS hook, so the Palatino font is patched onto
-# the built site directly — run after every build, before previewing.
+# book.yml has no custom-CSS hook, so the Palatino font and link color are
+# patched onto the built site directly — run after every build, before
+# previewing.
 ./scripts/fix-font.sh
+./scripts/fix-links.sh
 ```
 
 ## Layout
 
-- `book.yml` — table of contents, theme, branding
-- `content/` — page Markdown, one file per nav entry (see `book.yml`'s `toc:`)
-- `scripts/` — post-build font patch (see above)
-- `.github/workflows/build-site.yml` — builds and publishes to GitHub Pages on every push to `main`
-
-Deployed automatically via GitHub Actions on push to `main`.
+- `book.yml` — table of contents (two `section` groups, Level 1 and Level 2, plus Setup & Resources), theme, branding
+- `content/` — flat directory of page Markdown (marimo-book flattens `content/` into the built site's root, so cross-page links have no `../`); `level-1-*` and `level-2-*` prefixes group each track
+- `images/` — illustration images at the book root (marimo-book's recognized static-asset dir), official product images from claude.com, github.com/openai/codex, code.visualstudio.com
+- `scripts/` — post-build font and link-color patches (see above)

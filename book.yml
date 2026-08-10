@@ -1,9 +1,9 @@
-title: "UF AI Passport Projects"
-description: "Mini-projects and open datasets for the UF AI Passport for Health Science, paired with the ML4LLM book."
+title: "UF AI Passport Project Levels"
+description: "Two tracks of mini-projects for the UF AI Passport for Health Science: prompting-built apps (Level 1) and model-internals analysis (Level 2)."
 authors:
   - name: Saurabh Ranjan
 
-repo: https://github.com/UF-AIBHS/ai.passport.projects
+repo: https://github.com/UF-AIBHS/ai.passport.projects.levels
 branch: main
 
 theme:
@@ -19,23 +19,61 @@ launch_buttons:
 toc:
   - file: content/index.md
     title: Home
-  - file: content/project-01-tokenizer-jargon.md
-    title: "1. Tokenizer stress-test on medical jargon"
-  - file: content/project-02-verbosity-drift.md
-    title: "2. Verbosity drift across note types"
-  - file: content/project-03-topic-drift-chat.md
-    title: "3. Topic drift in patient–doctor chat"
-  - file: content/project-04-drug-label-clusters.md
-    title: "4. Drug-label embedding clusters"
-  - file: content/project-05-perplexity-clinical.md
-    title: "5. Perplexity of clinical language"
-  - file: content/project-06-layer-diagnosis.md
-    title: "6. Which layer \"knows\" the diagnosis"
-  - file: content/project-07-attention-symptoms.md
-    title: "7. Attention to symptom keywords"
-  - file: content/project-08-radiology-position.md
-    title: "8. Structural position of radiology findings"
-  - file: content/project-09-health-literacy-gap.md
-    title: "9. Health-literacy gap as embedding distance"
-  - file: content/project-10-capstone.md
-    title: "10. Capstone: full mechanism audit"
+  - section: "Level 1: Prompting"
+    children:
+      - file: content/level-1-index.md
+        title: Overview
+      - file: content/level-1-project-01-medical-term-definer.md
+        title: "1. Medical Term Definer"
+      - file: content/level-1-project-02-appointment-prep-chatbot.md
+        title: "2. Appointment Prep Chatbot"
+      - file: content/level-1-project-03-patient-note-summarizer.md
+        title: "3. Patient Note Summarizer"
+      - file: content/level-1-project-04-symptom-specialist-router.md
+        title: "4. Symptom-to-Specialist Router"
+      - file: content/level-1-project-05-drug-interaction-checker.md
+        title: "5. Drug Interaction Checker"
+      - file: content/level-1-project-06-health-literacy-rewriter.md
+        title: "6. Health Literacy Rewriter"
+      - file: content/level-1-project-07-mood-journal-sentiment.md
+        title: "7. Mood Journal Sentiment Tracker"
+      - file: content/level-1-project-08-radiology-report-flagger.md
+        title: "8. Radiology Report Flagger"
+      - file: content/level-1-project-09-clinical-trial-matcher.md
+        title: "9. Clinical Trial Matcher"
+      - file: content/level-1-project-10-capstone-health-assistant.md
+        title: "10. Capstone: Personal Health Assistant"
+  - section: "Level 2: Model Internals"
+    children:
+      - file: content/level-2-index.md
+        title: Overview
+      - file: content/level-2-project-01-tokenizer-jargon.md
+        title: "1. Tokenizer stress-test on medical jargon"
+      - file: content/level-2-project-02-verbosity-drift.md
+        title: "2. Verbosity drift across note types"
+      - file: content/level-2-project-03-topic-drift-chat.md
+        title: "3. Topic drift in patient–doctor chat"
+      - file: content/level-2-project-04-drug-label-clusters.md
+        title: "4. Drug-label embedding clusters"
+      - file: content/level-2-project-05-perplexity-clinical.md
+        title: "5. Perplexity of clinical language"
+      - file: content/level-2-project-06-layer-diagnosis.md
+        title: "6. Which layer \"knows\" the diagnosis"
+      - file: content/level-2-project-07-attention-symptoms.md
+        title: "7. Attention to symptom keywords"
+      - file: content/level-2-project-08-radiology-position.md
+        title: "8. Structural position of radiology findings"
+      - file: content/level-2-project-09-health-literacy-gap.md
+        title: "9. Health-literacy gap as embedding distance"
+      - file: content/level-2-project-10-capstone.md
+        title: "10. Capstone: full mechanism audit"
+  - section: "Setup & Resources"
+    children:
+      - file: content/software-engineering-practices.md
+        title: Software Engineering Practices for Data Science
+      - file: content/download-claude-code.md
+        title: Get Claude Code
+      - file: content/download-codex.md
+        title: Get Codex
+      - file: content/download-vscode.md
+        title: Get VS Code
