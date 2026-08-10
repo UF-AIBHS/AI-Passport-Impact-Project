@@ -16,7 +16,7 @@ Both levels are 10 projects, ascending in complexity, ending in a capstone that 
 
 ## Before you start
 
-New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout.
+New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout. If you'll be collaborating with others on a project, also read [Using GitHub to Collaborate](github-collaboration.md) — branches, pull requests, issues, and code review.
 
 ## Get an AI coding agent
 
