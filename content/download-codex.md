@@ -19,6 +19,17 @@ codex
 
 Sign in with your ChatGPT account (Plus/Pro/Team) or an API key. Other ways in: the IDE extension for VS Code/Cursor, or Codex Cloud for background/async tasks. Full docs: [developers.openai.com/codex](https://developers.openai.com/codex/).
 
+## IDE extension
+
+Install the [Codex extension](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) from the VS Code Marketplace (also works in Cursor and Windsurf; Xcode and JetBrains have their own native integrations) if you'd rather stay in an editor than the terminal:
+
+- Sign in with your OpenAI account, then open the Codex sidebar.
+- It pulls your open files and selection into the prompt automatically, so you don't have to restate what you're looking at.
+- Edits show as an inline, focused diff you review in place, then follow up in the same chat.
+- For a task that's going to take a while, hand it off to **Codex web** (cloud) from the sidebar — it keeps running, and the chat history is there when you come back.
+
+Full docs: [learn.chatgpt.com/docs/codex/ide](https://learn.chatgpt.com/docs/codex/ide).
+
 ## Using its agent on a Level 1/Level 2 project
 
 1. `cd` into your project folder and run `codex`.

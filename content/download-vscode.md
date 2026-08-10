@@ -19,4 +19,14 @@ brew install --cask visual-studio-code
 3. Describe the task — for these projects, paste the brief from [Level 1](level-1-index.md) or [Level 2](level-2-index.md). Agent mode will propose file edits and terminal commands; review each before applying.
 4. Prefer a different agent? Install the [Claude Code](download-claude-code.md) or [Codex](download-codex.md) extension from the Marketplace and it runs inside the same editor.
 
+## Copilot Chat features worth knowing
+
+- **Inline chat** (`Ctrl+I`) edits code right where your cursor is, without leaving the file — faster than the sidebar for a one-line fix.
+- **`#`-mentions** pull specific files, folders, or symbols into context; `#codebase` searches the whole project instead of just what's open.
+- **`!` in chat** runs a terminal command directly from the conversation.
+- **Diff checkpoints**: every agent edit is reviewable and revertible, so you can roll back a step without losing the rest of the session.
+- **Multiple parallel sessions** keep separate conversation histories if you're working more than one task at once.
+
+Full docs: [code.visualstudio.com/docs/copilot/chat](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode).
+
 [← Back to home](index.md)

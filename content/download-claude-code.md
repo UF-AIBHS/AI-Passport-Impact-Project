@@ -18,6 +18,17 @@ claude
 
 Other ways in, if you'd rather stay in an editor: the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (Marketplace), JetBrains plugins, or the web at [claude.ai/code](https://claude.ai/code). Full docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview).
 
+## Desktop app
+
+The [Claude Desktop app](https://claude.com/download) (macOS, Windows, Linux beta) wraps the same agent in a GUI, under its **Code** tab. Install, sign in, click **Code**, and open a session against a project folder. Compared to the terminal:
+
+- **Panes, not just text**: chat, diff viewer, integrated terminal, and file editor arranged side by side, plus a browser pane where Claude previews and clicks through your running app to verify its own changes.
+- **Permission modes** in a dropdown instead of flags: Manual (asks before every edit), Accept edits, Plan (read-only, proposes first), Auto, and Bypass — same underlying settings as the CLI's `permissions.defaultMode`.
+- **Parallel sessions**: each new session gets its own [git worktree](https://code.claude.com/docs/en/worktrees), so you can run several tasks on the same repo at once without them colliding.
+- **Diff review**: comment on specific lines before Claude proceeds, or click **Review code** to have Claude self-review its own diff for bugs before you commit.
+
+Full reference: [code.claude.com/docs/en/desktop](https://code.claude.com/docs/en/desktop).
+
 ## Using its agent on a Level 1/Level 2 project
 
 1. `cd` into your project folder and run `claude`.
