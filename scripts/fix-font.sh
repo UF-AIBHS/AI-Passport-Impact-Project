@@ -10,7 +10,7 @@ cat >> _site/stylesheets/extra.css <<'EOF'
 /* Site font: Palatino Linotype, with a serif fallback stack for systems
  * that don't have it installed (it's not on Google Fonts, so there's no
  * webfont hook to fetch it from — set the family directly instead). */
-body, .md-typeset, .md-header, .md-nav, .md-tabs {
+body, .md-typeset, .md-header, .md-nav, .md-tabs, .md-search__input {
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif !important;
 }
 EOF
