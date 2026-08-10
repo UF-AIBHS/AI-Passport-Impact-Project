@@ -36,6 +36,9 @@ jobs:
       - name: Apply link color
         run: ./scripts/fix-links.sh
 
+      - name: Default to light theme
+        run: ./scripts/fix-default-theme.sh
+
       - uses: actions/configure-pages@v5
         with:
           enablement: true
