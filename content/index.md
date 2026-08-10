@@ -16,7 +16,7 @@ Both levels are 10 projects, ascending in complexity, ending in a capstone that 
 
 ## Before you start
 
-New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout. For hands-on environment setup, see [Virtual Environments & Packages with uv](uv-environments.md). If you'll be collaborating with others on a project, also read [Using GitHub to Collaborate](github-collaboration.md) — branches, pull requests, issues, and code review.
+New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout. For hands-on environment setup, see [Virtual Environments & Packages with uv](uv-environments.md). If you'll be collaborating with others on a project, also read [Using GitHub to Collaborate](github-collaboration.md) — branches, pull requests, issues, and code review. Building a Level 1 frontend? See [Streamlit & Gradio: A Beginner's Guide](streamlit-vs-gradio.md) to pick a UI framework.
 
 ## Get an AI coding agent
 
