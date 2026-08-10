@@ -73,6 +73,8 @@ toc:
         title: Software Engineering Practices for Data Science
       - file: content/github-collaboration.md
         title: Using GitHub to Collaborate
+      - file: content/uv-environments.md
+        title: "Virtual Environments & Packages with uv"
       - file: content/download-claude-code.md
         title: Get Claude Code
       - file: content/download-codex.md
