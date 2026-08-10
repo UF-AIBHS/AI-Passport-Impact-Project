@@ -1,6 +1,6 @@
-# UF AI Passport Project Levels
+# ai.passport.projects
 
-Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/): Level 1 (build apps by prompting an AI coding agent) and Level 2 (analyze model internals on medical text, taken from [ai.passport.projects](https://github.com/UF-AIBHS/ai.passport.projects)).
+Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/): Level 1 (build apps by prompting an AI coding agent) and Level 2 (analyze model internals on medical text).
 
 Built with [marimo-book](https://marimobook.org/).
 

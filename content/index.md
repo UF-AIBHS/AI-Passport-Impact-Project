@@ -1,4 +1,4 @@
-# UF AI Passport Project Levels
+# ai.passport.projects
 
 Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book). Pick a level based on what you want to build vs. what you want to understand — both are open-source end to end, no paid API required.
 
