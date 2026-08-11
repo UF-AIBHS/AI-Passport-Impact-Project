@@ -27,6 +27,8 @@ toc:
         title: Get Codex
       - file: content/download-vscode.md
         title: Get VS Code
+      - file: content/marimo-agents.md
+        title: marimo AI Agents
       - file: content/streamlit-vs-gradio.md
         title: "Streamlit & Gradio: A Beginner's Guide"
       - file: content/uv-environments.md
