@@ -14,7 +14,7 @@
   <!-- Basic: flask icon -->
   <g transform="translate(120,60)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
     <path d="M22 6 h16 M26 6 v22 l-16 32 a6 6 0 0 0 5 9 h26 a6 6 0 0 0 5 -9 l-16 -32 V6"/>
-    <path d="M17 50 h26"/>
+    <path d="M18 50 h20"/>
   </g>
   <text x="150" y="150" text-anchor="middle" class="card-count">3 PROJECTS</text>
   <text x="150" y="185" text-anchor="middle" class="card-title">Basic</text>
@@ -23,26 +23,21 @@
     <tspan x="150" dy="20">fine-tuning skills</tspan>
   </text>
 
-  <!-- Clinical Application: stethoscope-ish icon -->
-  <g transform="translate(450,55)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M12 4 v20 a14 14 0 0 0 28 0 V4"/>
-    <path d="M12 4 h-6 M40 4 h6"/>
-    <path d="M26 38 v8 a14 14 0 0 0 28 0 v-6"/>
-    <circle cx="58" cy="34" r="5"/>
+  <!-- Clinical Application: heart icon -->
+  <g transform="translate(457,73)" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 42.7 l-2.9-2.64 C10.8 30.72 4 24.56 4 17 C4 10.84 8.84 6 15 6 c3.48 0 6.82 1.62 9 4.18 C26.18 7.62 29.52 6 33 6 C39.16 6 44 10.84 44 17 c0 7.56-6.8 13.72-17.1 23.08 Z"/>
   </g>
   <text x="480" y="150" text-anchor="middle" class="card-count">7 PROJECTS</text>
   <text x="480" y="185" text-anchor="middle" class="card-title">Clinical</text>
   <text x="480" y="211" text-anchor="middle" class="card-title" font-size="22">Application</text>
   <text x="480" y="238" text-anchor="middle" class="card-sub">Real clinical workflow tools</text>
 
-  <!-- Basic Science: network/brain icon -->
-  <g transform="translate(778,58)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
-    <circle cx="6" cy="8" r="5"/>
-    <circle cx="38" cy="4" r="5"/>
-    <circle cx="4" cy="38" r="5"/>
-    <circle cx="40" cy="42" r="5"/>
-    <circle cx="22" cy="24" r="6"/>
-    <path d="M10 12 L18 20 M34 8 L26 20 M9 34 L18 27 M35 38 L27 28"/>
+  <!-- Basic Science: atom icon -->
+  <g transform="translate(810,97)" stroke="#ffffff" stroke-width="3.5" fill="none">
+    <ellipse rx="22" ry="9"/>
+    <ellipse rx="22" ry="9" transform="rotate(60)"/>
+    <ellipse rx="22" ry="9" transform="rotate(120)"/>
+    <circle r="4.5" fill="#ffffff" stroke="none"/>
   </g>
   <text x="810" y="150" text-anchor="middle" class="card-count">10 PROJECTS</text>
   <text x="810" y="185" text-anchor="middle" class="card-title" font-size="24">Basic Science</text>
