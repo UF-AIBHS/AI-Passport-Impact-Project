@@ -1,4 +1,6 @@
-# Project 2: Appointment Prep Chatbot
+# Project 1: Appointment Prep Chatbot
+
+*Mentors: To be announced*
 
 **Frontend:** Chat widget (message list + input box) embedded on a mock clinic page.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to scaffold: (1) an ingestion script that chunks the FAQ doc and embeds it into Chroma with an open sentence-transformers model, (2) a chat endpoint that embeds the user question, retrieves top-k chunks, and stuffs them into the LLM prompt as context, (3) a minimal chat frontend. Test that it refuses to answer questions outside the FAQ's scope.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

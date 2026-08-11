@@ -1,4 +1,6 @@
-# Project 8: Radiology Report Flagger
+# Project 5: Radiology Report Flagger
+
+*Mentors: To be announced*
 
 **Frontend:** Textbox for a pasted radiology report, output with "critical finding" phrases highlighted inline.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to scaffold a lightweight annotation step first (mark spans in ~50 reports as critical/not), fine-tune spaCy's NER component on that labeled set, then build the highlight view. Keep the labeled set small on purpose — the lesson is how few examples it takes to specialize an NER model for a narrow phrase category, and where it still gets it wrong.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

@@ -1,4 +1,6 @@
-# Project 4: Symptom-to-Specialist Router
+# Project 3: Symptom-to-Specialist Router
+
+*Mentors: To be announced*
 
 **Frontend:** Free-text symptom input, result card showing the predicted specialist + confidence.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to write a short fine-tuning script (Hugging Face `Trainer`, a handful of epochs on a small DistilBERT) against the Symptom2Disease training split, then serve the resulting checkpoint behind a small API. The frontend is intentionally simple — the point of this project is watching a model go from "generic" to "task-specific" after training, and comparing its outputs to Project 1-3's pure-prompting approach.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

@@ -30,10 +30,10 @@ Install the [Codex extension](https://marketplace.visualstudio.com/items?itemNam
 
 Full docs: [learn.chatgpt.com/docs/codex/ide](https://learn.chatgpt.com/docs/codex/ide).
 
-## Using its agent on a Level 1/Level 2 project
+## Using its agent on a project
 
 1. `cd` into your project folder and run `codex`.
-2. Paste the project brief from [Level 1](level-1-index.md) or [Level 2](level-2-index.md) as your first prompt.
+2. Paste the project brief from [Basic](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md) as your first prompt.
 3. Codex proposes and runs a plan inside its sandbox, asking approval before network access or destructive commands — review the diff before accepting.
 4. Ask it to explain any generated code you don't recognize before you build on top of it.
 

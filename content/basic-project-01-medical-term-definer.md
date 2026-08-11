@@ -1,5 +1,7 @@
 # Project 1: Medical Term Definer
 
+*Mentors: To be announced*
+
 **Frontend:** Textbox for a pasted clinical note, output view with jargon terms highlighted and defined inline.
 
 **Backend:** Local open-source LLM via [Ollama](https://ollama.com) (e.g. Llama 3 8B) — no fine-tuning, prompting only.
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your coding agent to scaffold a single-page app: a textarea in, a rendered note out with `<mark>` spans over jargon terms (tooltip or footnote holds the definition). The definitions come from one LLM call per note using a system prompt that constrains output to a term→definition JSON list, which the frontend then merges back into the note text.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Basic projects](basic-index.md)

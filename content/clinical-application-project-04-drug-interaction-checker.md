@@ -1,4 +1,6 @@
-# Project 5: Drug Interaction Checker
+# Project 4: Drug Interaction Checker
+
+*Mentors: To be announced*
 
 **Frontend:** Two-field form (drug A, drug B), result panel with a plain-language interaction explainer.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to build the two-field form, call RxNav's interaction endpoint for the raw record, then pass that record (not the drug names alone) into the LLM prompt so the explanation is grounded in the actual API result. This is a deliberate contrast with Project 1: here the LLM never originates the medical fact, it only rephrases one.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

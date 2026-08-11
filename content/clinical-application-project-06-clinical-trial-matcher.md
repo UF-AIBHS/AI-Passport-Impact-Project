@@ -1,4 +1,6 @@
-# Project 9: Clinical Trial Matcher
+# Project 6: Clinical Trial Matcher
+
+*Mentors: To be announced*
 
 **Frontend:** Free-text input describing a patient's condition/situation, ranked list of matching trials.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to build: (1) a ClinicalTrials.gov query for a broad condition match, (2) embed the free-text query and each trial's summary with sentence-transformers, rank by cosine similarity, (3) an LLM call per top-ranked trial to compress its eligibility criteria into a few plain-language bullets. This is the most "full pipeline" project before the capstone — API + embeddings + LLM, no training.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

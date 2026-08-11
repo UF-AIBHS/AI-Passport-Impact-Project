@@ -16,7 +16,7 @@ brew install --cask visual-studio-code
 
 1. Open your project folder in VS Code.
 2. Open the Chat view (`⌘⇧I` on macOS) and switch the mode dropdown to **Agent**.
-3. Describe the task — for these projects, paste the brief from [Level 1](level-1-index.md) or [Level 2](level-2-index.md). Agent mode will propose file edits and terminal commands; review each before applying.
+3. Describe the task — for these projects, paste the brief from [Basic](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md). Agent mode will propose file edits and terminal commands; review each before applying.
 4. Prefer a different agent? Install the [Claude Code](download-claude-code.md) or [Codex](download-codex.md) extension from the Marketplace and it runs inside the same editor.
 
 ## Copilot Chat features worth knowing

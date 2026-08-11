@@ -1,4 +1,6 @@
-# Project 3: Patient Note Summarizer
+# Project 2: Patient Note Summarizer
+
+*Mentors: To be announced*
 
 **Frontend:** File/text upload for a clinical note, summary panel with 3-5 bullet points.
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to build an upload-and-summarize flow, then compare two backends side by side: the dedicated summarization model vs. a general LLM with a summarization prompt. Have the frontend show both outputs so students can see where a task-specific model differs from prompting a general model.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Clinical Application projects](clinical-application-index.md)

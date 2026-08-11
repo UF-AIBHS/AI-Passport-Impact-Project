@@ -1,0 +1,53 @@
+<svg viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three project tracks: Basic, Clinical Application, Basic Science">
+  <defs>
+    <style>
+      .card-title { font-family: 'Palatino Linotype', Palatino, Georgia, serif; font-size: 26px; font-weight: 700; fill: #ffffff; }
+      .card-sub { font-family: 'Palatino Linotype', Palatino, Georgia, serif; font-size: 15px; fill: #ffffff; opacity: 0.92; }
+      .card-count { font-family: 'Palatino Linotype', Palatino, Georgia, serif; font-size: 13px; fill: #ffffff; opacity: 0.85; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="300" height="300" rx="14" fill="#005496"/>
+  <rect x="330" y="0" width="300" height="300" rx="14" fill="#F37021"/>
+  <rect x="660" y="0" width="300" height="300" rx="14" fill="#00304f"/>
+
+  <!-- Basic: flask icon -->
+  <g transform="translate(120,60)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M22 6 h16 M26 6 v22 l-16 32 a6 6 0 0 0 5 9 h26 a6 6 0 0 0 5 -9 l-16 -32 V6"/>
+    <path d="M17 50 h26"/>
+  </g>
+  <text x="150" y="150" text-anchor="middle" class="card-count">3 PROJECTS</text>
+  <text x="150" y="185" text-anchor="middle" class="card-title">Basic</text>
+  <text x="150" y="215" text-anchor="middle" class="card-sub">
+    <tspan x="150" dy="0">General prompting &amp;</tspan>
+    <tspan x="150" dy="20">fine-tuning skills</tspan>
+  </text>
+
+  <!-- Clinical Application: stethoscope-ish icon -->
+  <g transform="translate(450,55)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M12 4 v20 a14 14 0 0 0 28 0 V4"/>
+    <path d="M12 4 h-6 M40 4 h6"/>
+    <path d="M26 38 v8 a14 14 0 0 0 28 0 v-6"/>
+    <circle cx="58" cy="34" r="5"/>
+  </g>
+  <text x="480" y="150" text-anchor="middle" class="card-count">7 PROJECTS</text>
+  <text x="480" y="185" text-anchor="middle" class="card-title">Clinical</text>
+  <text x="480" y="211" text-anchor="middle" class="card-title" font-size="22">Application</text>
+  <text x="480" y="238" text-anchor="middle" class="card-sub">Real clinical workflow tools</text>
+
+  <!-- Basic Science: network/brain icon -->
+  <g transform="translate(778,58)" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="6" cy="8" r="5"/>
+    <circle cx="38" cy="4" r="5"/>
+    <circle cx="4" cy="38" r="5"/>
+    <circle cx="40" cy="42" r="5"/>
+    <circle cx="22" cy="24" r="6"/>
+    <path d="M10 12 L18 20 M34 8 L26 20 M9 34 L18 27 M35 38 L27 28"/>
+  </g>
+  <text x="810" y="150" text-anchor="middle" class="card-count">10 PROJECTS</text>
+  <text x="810" y="185" text-anchor="middle" class="card-title" font-size="24">Basic Science</text>
+  <text x="810" y="215" text-anchor="middle" class="card-sub">
+    <tspan x="810" dy="0">Model-internals</tspan>
+    <tspan x="810" dy="20">analysis</tspan>
+  </text>
+</svg>

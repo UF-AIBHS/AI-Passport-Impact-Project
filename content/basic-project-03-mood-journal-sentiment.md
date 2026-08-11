@@ -1,4 +1,6 @@
-# Project 7: Mood Journal Sentiment Tracker
+# Project 3: Mood Journal Sentiment Tracker
+
+*Mentors: To be announced*
 
 **Frontend:** Daily journal entry form + a trend chart (emotion mix over time).
 
@@ -12,4 +14,4 @@
 
 **Plan:** Prompt your agent to build the journal form + a chart (e.g. stacked area of emotion scores per day), running the classifier locally so entries never leave the machine. Have students label ~30 of their own entries and re-tune the base checkpoint on them, then compare classifications before/after tuning to see the effect of a small amount of domain-specific training data.
 
-[← Back to all Level 1 projects](level-1-index.md)
+[← Back to all Basic projects](basic-index.md)

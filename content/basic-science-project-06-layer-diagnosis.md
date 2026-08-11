@@ -1,5 +1,7 @@
 # Project 6: Which layer "knows" the diagnosis
 
+*Mentors: To be announced*
+
 **ML4LLM anchor:** Ch.5 · proj27 — [Impact of layer-specific noise and scaling](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_5/ml4llm_ch5_proj27_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_5/ml4llm_ch5_proj27_helper.ipynb))
 
 **Dataset:** [PubMedQA](https://pubmedqa.github.io/) abstracts
@@ -8,4 +10,4 @@
 
 **Plan:** For a set of PubMedQA contexts ending in a diagnosis term, inject noise/scaling at each layer in turn as in proj27, and measure how prediction accuracy for the correct diagnosis token degrades by layer. Plot accuracy vs. layer depth to locate where diagnosis-relevant information becomes concentrated.
 
-[← Back to all projects](level-2-index.md)
+[← Back to all Basic Science projects](basic-science-index.md)

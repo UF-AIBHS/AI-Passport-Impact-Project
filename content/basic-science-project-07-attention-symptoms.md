@@ -1,5 +1,7 @@
 # Project 7: Attention to symptom keywords
 
+*Mentors: To be announced*
+
 **ML4LLM anchor:** Ch.6 · proj35 — [Raw and softmax attention scores](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_helper.ipynb))
 
 **Dataset:** [MedDialog](https://huggingface.co/datasets/lavita/medical-meadow-medical-flashcards) patient messages describing symptoms
@@ -8,4 +10,4 @@
 
 **Plan:** Extract raw and softmax attention scores for the token generated after a symptom description, as in proj35. Overlay attention weight on the input tokens and check whether the highest-attention tokens correspond to clinically salient symptom words versus filler text.
 
-[← Back to all projects](level-2-index.md)
+[← Back to all Basic Science projects](basic-science-index.md)
