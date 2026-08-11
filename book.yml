@@ -21,14 +21,6 @@ toc:
     title: Home
   - section: "Setup & Resources"
     children:
-      - file: content/software-engineering-practices.md
-        title: Software Engineering Practices for Data Science
-      - file: content/better-code-better-science.md
-        title: "Better Code, Better Science"
-      - file: content/uv-environments.md
-        title: "Virtual Environments & Packages with uv"
-      - file: content/github-collaboration.md
-        title: Using GitHub to Collaborate
       - file: content/download-claude-code.md
         title: Get Claude Code
       - file: content/download-codex.md
@@ -37,6 +29,14 @@ toc:
         title: Get VS Code
       - file: content/streamlit-vs-gradio.md
         title: "Streamlit & Gradio: A Beginner's Guide"
+      - file: content/uv-environments.md
+        title: "Virtual Environments & Packages with uv"
+      - file: content/github-collaboration.md
+        title: Using GitHub to Collaborate
+      - file: content/software-engineering-practices.md
+        title: Software Engineering Practices for Data Science
+      - file: content/better-code-better-science.md
+        title: "Better Code, Better Science"
   - section: "Basic"
     children:
       - file: content/basic-index.md
