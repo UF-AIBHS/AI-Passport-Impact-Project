@@ -12,6 +12,6 @@ Seven mini-projects, ascending in complexity, building tools grounded in a real 
 | 6 | [Clinical Trial Matcher](clinical-application-project-06-clinical-trial-matcher.md) | ClinicalTrials.gov API + sentence-transformer ranking | No |
 | 7 | [Capstone: Personal Health Assistant](clinical-application-project-07-capstone-health-assistant.md) | LoRA fine-tune + RAG over uploaded docs | **Yes** |
 
-Every project's backend runs on open-source models and datasets — no paid API required, and everything is inspectable locally. New to the tooling in general? Start with [Software Engineering Practices for Data Science](software-engineering-practices.md).
+Every project's backend runs on open-source models and datasets, and everything is inspectable locally. New to the tooling in general? Start with [Software Engineering Practices for Data Science](software-engineering-practices.md).
 
 [← Back to Basic projects](basic-index.md) · [Basic Science projects →](basic-science-index.md)

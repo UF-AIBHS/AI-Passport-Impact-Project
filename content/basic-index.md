@@ -8,6 +8,6 @@ Three foundational mini-projects. General-purpose prompting and fine-tuning skil
 | 2 | [Health Literacy Rewriter](basic-project-02-health-literacy-rewriter.md) | LLM prompting + `textstat` verification | No |
 | 3 | [Mood Journal Sentiment Tracker](basic-project-03-mood-journal-sentiment.md) | Fine-tuned emotion classifier | **Yes** |
 
-Every project's backend runs on open-source models and datasets — no paid API required, and everything is inspectable locally. New to the tooling in general? Start with [Software Engineering Practices for Data Science](software-engineering-practices.md).
+Every project's backend runs on open-source models and datasets, and everything is inspectable locally. New to the tooling in general? Start with [Software Engineering Practices for Data Science](software-engineering-practices.md).
 
 [← Back to home](index.md) · [Clinical Application projects →](clinical-application-index.md)
