@@ -18,7 +18,7 @@ Start with Basic, then move to Clinical Application or Basic Science depending o
 
 ## Before you start
 
-New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout. For hands-on environment setup, see [Virtual Environments & Packages with uv](uv-environments.md). If you'll be collaborating with others on a project, also read [Using GitHub to Collaborate](github-collaboration.md) — branches, pull requests, issues, and code review. Building a Basic or Clinical Application frontend? See [Streamlit & Gradio: A Beginner's Guide](streamlit-vs-gradio.md) to pick a UI framework.
+New to the tooling? Read [Software Engineering Practices for Data Science](software-engineering-practices.md) first — virtual environments, keeping secrets out of git, version control, and a standard project layout — and [Better Code, Better Science](better-code-better-science.md) for the deeper version of the same argument, including AI-assisted coding. For hands-on environment setup, see [Virtual Environments & Packages with uv](uv-environments.md). If you'll be collaborating with others on a project, also read [Using GitHub to Collaborate](github-collaboration.md) — branches, pull requests, issues, and code review. Building a Basic or Clinical Application frontend? See [Streamlit & Gradio: A Beginner's Guide](streamlit-vs-gradio.md) to pick a UI framework.
 
 ## Get an AI coding agent
 

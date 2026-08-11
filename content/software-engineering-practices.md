@@ -10,6 +10,6 @@ Before (or alongside) either level, it's worth picking up the habits that keep r
 - [Cookiecutter Data Science: A Standard Project Skeleton](https://uf-aibhs.github.io/extra-resources/software-engineering/cookiecutter-data-science/)
 - [Science as Amateur Software Development (talk)](https://uf-aibhs.github.io/extra-resources/software-engineering/amateur-software-development-talk/)
 
-Read in that order — dependencies → secrets → version control → project structure — before starting a [Basic](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md) project.
+Read in that order — dependencies → secrets → version control → project structure — before starting a [Basic](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md) project. For the deeper version of the same argument, see [Better Code, Better Science](better-code-better-science.md).
 
 [← Back to home](index.md)

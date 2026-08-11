@@ -23,18 +23,20 @@ toc:
     children:
       - file: content/software-engineering-practices.md
         title: Software Engineering Practices for Data Science
-      - file: content/github-collaboration.md
-        title: Using GitHub to Collaborate
+      - file: content/better-code-better-science.md
+        title: "Better Code, Better Science"
       - file: content/uv-environments.md
         title: "Virtual Environments & Packages with uv"
-      - file: content/streamlit-vs-gradio.md
-        title: "Streamlit & Gradio: A Beginner's Guide"
+      - file: content/github-collaboration.md
+        title: Using GitHub to Collaborate
       - file: content/download-claude-code.md
         title: Get Claude Code
       - file: content/download-codex.md
         title: Get Codex
       - file: content/download-vscode.md
         title: Get VS Code
+      - file: content/streamlit-vs-gradio.md
+        title: "Streamlit & Gradio: A Beginner's Guide"
   - section: "Basic"
     children:
       - file: content/basic-index.md
