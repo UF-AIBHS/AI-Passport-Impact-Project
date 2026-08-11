@@ -1,9 +1,9 @@
 title: "AI Passport Impact Project"
-description: "Two tracks of mini-projects for the UF AI Passport for Health Science: prompting-built apps (Level 1) and model-internals analysis (Level 2)."
+description: "Three tracks of mini-projects for the UF AI Passport for Health Science: Basic, Clinical Application, and Basic Science."
 authors:
   - name: Saurabh Ranjan
 
-repo: https://github.com/UF-AIBHS/ai.passport.projects
+repo: https://github.com/UF-AIBHS/AI-Passport-Impact-Project
 branch: main
 
 theme:
