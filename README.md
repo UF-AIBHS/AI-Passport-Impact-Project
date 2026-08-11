@@ -1,6 +1,6 @@
-# ai.passport.projects
+# AI Passport Impact Project
 
-Two tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/): Level 1 (build apps by prompting an AI coding agent) and Level 2 (analyze model internals on medical text).
+Three tracks of mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/): Basic (general prompting/fine-tuning skills), Clinical Application (build clinical-workflow apps by prompting an AI coding agent), and Basic Science (analyze model internals on medical text).
 
 Built with [marimo-book](https://marimobook.org/).
 
@@ -29,7 +29,7 @@ python3.13 -m venv .venv  # marimo-book requires Python >=3.11
 
 ## Layout
 
-- `book.yml` — table of contents (two `section` groups, Level 1 and Level 2, plus Setup & Resources), theme, branding
-- `content/` — flat directory of page Markdown (marimo-book flattens `content/` into the built site's root, so cross-page links have no `../`); `level-1-*` and `level-2-*` prefixes group each track
+- `book.yml` — table of contents (`section` groups for Setup & Resources, Basic, Clinical Application, and Basic Science), theme, branding
+- `content/` — flat directory of page Markdown (marimo-book flattens `content/` into the built site's root, so cross-page links have no `../`); `basic-*`, `clinical-application-*`, and `basic-science-*` prefixes group each track
 - `images/` — illustration images at the book root (marimo-book's recognized static-asset dir), official product images from claude.com, github.com/openai/codex, code.visualstudio.com
 - `scripts/` — post-build font, link-color, and default-theme patches (see above)

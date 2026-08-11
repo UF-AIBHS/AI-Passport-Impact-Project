@@ -1,4 +1,4 @@
-# ai.passport.projects
+# AI Passport Impact Project
 
 Twenty mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/), paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book). Everything is open-source end to end, no paid API required.
 
