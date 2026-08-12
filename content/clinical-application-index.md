@@ -14,4 +14,4 @@ Seven mini-projects, ascending in complexity, building tools grounded in a real 
 
 Every project's backend runs on open-source models and datasets, and everything is inspectable locally. New to the tooling in general? Start with [Software Engineering Practices for Data Science](software-engineering-practices.md).
 
-[← Back to Basic projects](basic-index.md) · [Basic Science projects →](basic-science-index.md)
+[← Back to Foundations projects](basic-index.md) · [Basic Science projects →](basic-science-index.md)

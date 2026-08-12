@@ -16,7 +16,13 @@ Then, from inside a project folder:
 claude
 ```
 
-Other ways in, if you'd rather stay in an editor: the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (Marketplace), JetBrains plugins, or the web at [claude.ai/code](https://claude.ai/code). Full docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview).
+Other ways in, if you'd rather stay in an editor:
+
+- The [VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) (Marketplace)
+- JetBrains plugins
+- The web at [claude.ai/code](https://claude.ai/code)
+
+Full docs: [code.claude.com/docs](https://code.claude.com/docs/en/overview).
 
 ## Desktop app
 
@@ -32,7 +38,7 @@ Full reference: [code.claude.com/docs/en/desktop](https://code.claude.com/docs/e
 ## Using its agent on a project
 
 1. `cd` into your project folder and run `claude`.
-2. Paste the project brief from [Basic](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md) and ask it to scaffold the app/notebook.
+2. Paste the project brief from [Foundations](basic-index.md), [Clinical Application](clinical-application-index.md), or [Basic Science](basic-science-index.md) and ask it to scaffold the app/notebook.
 3. Let it propose a plan before it touches files — Claude Code asks for confirmation on anything destructive (installs, deletes, pushes).
 4. Iterate: point it at failing tests or unexpected output and ask it to fix the root cause, not just silence the symptom.
 

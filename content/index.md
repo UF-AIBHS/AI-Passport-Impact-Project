@@ -37,11 +37,16 @@ All three tracks — Foundations, Clinical Application, and Basic Science — ar
 
 | Track | What you paste as your first prompt | What the agent scaffolds |
 |---|---|---|
-| [Foundations](basic-index.md) | The project's brief (Frontend/Backend/Dataset/Goal/Plan) | A single small app — one page, one model call |
+| [Foundations](basic-index.md) | The project's brief (Problem/Context/Goals/Deliverables) | A single small app — one page, one model call |
 | [Clinical Application](clinical-application-index.md) | The project's brief, plus which dataset/API it names | A full app: frontend (Streamlit/Gradio) + backend, wired to the named open dataset or API |
 | [Basic Science](basic-science-index.md) | The project's Question and Plan (not the linked ML4LLM solution notebook — that's for your instructor, not you) | A notebook that runs the analysis end to end and produces the plot the project asks for |
 
-In every case: paste the brief, let the agent propose a plan before it touches files, review the diff, and iterate by pointing it at what's wrong rather than fixing code by hand.
+In every case:
+
+1. Paste the brief.
+2. Let the agent propose a plan before it touches files.
+3. Review the diff.
+4. Iterate by pointing it at what's wrong rather than fixing code by hand.
 
 ## Related
 

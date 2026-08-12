@@ -26,7 +26,11 @@ if name:
 streamlit run app.py
 ```
 
-Core building blocks: `st.write()` for near-anything (text, dataframes, charts), input widgets like `st.slider()` / `st.text_input()` / `st.button()`, and `@st.cache_data` to avoid re-running expensive functions (like loading a model) on every rerun.
+Core building blocks:
+
+- `st.write()` for near-anything (text, dataframes, charts)
+- Input widgets like `st.slider()` / `st.text_input()` / `st.button()`
+- `@st.cache_data` to avoid re-running expensive functions (like loading a model) on every rerun
 
 ## Gradio
 
