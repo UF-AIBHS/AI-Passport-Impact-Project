@@ -22,7 +22,7 @@ Creates `.venv` in the current directory. Options:
 
 ```bash
 uv venv my-name          # custom location instead of .venv
-uv venv --python 3.11    # pin a Python version — uv downloads it if missing
+uv venv --python 3.11    # pin a Python version (uv downloads it if missing)
 ```
 
 ## Install packages into it
@@ -31,7 +31,7 @@ uv venv --python 3.11    # pin a Python version — uv downloads it if missing
 uv pip install ruff
 ```
 
-As long as the environment is named `.venv` in the current directory (or a parent), uv finds it automatically — no activation required for `uv pip` commands.
+As long as the environment is named `.venv` in the current directory (or a parent), uv finds it automatically: no activation required for `uv pip` commands.
 
 ## Activate it for everything else
 
@@ -52,10 +52,10 @@ deactivate
 
 In order:
 
-1. `VIRTUAL_ENV` — an already-activated environment
-2. `CONDA_PREFIX` — an active Conda environment
+1. `VIRTUAL_ENV`: an already-activated environment
+2. `CONDA_PREFIX`: an active Conda environment
 3. `.venv` in the current or a parent directory
 
-If none exist, uv tells you to run `uv venv` rather than silently installing into system Python — unlike plain `pip`, uv refuses to touch a non-virtual environment unless you pass `--system`.
+If none exist, uv tells you to run `uv venv` rather than silently installing into system Python. Unlike plain `pip`, uv refuses to touch a non-virtual environment unless you pass `--system`.
 
 [← Back to home](index.md)

@@ -1,6 +1,6 @@
 # Basic Science
 
-Ten applied mini-projects, each adapting a mechanistic-interpretability technique from [Mike X Cohen's *50 ML projects to understand LLMs*](https://github.com/saurabhr/ML4LLM_book) to open, PHI-free health-science text. No fine-tuning, no APIs — every project treats an LLM's tokens, embeddings, attention, and hidden states as data to analyze and visualize.
+Ten applied mini-projects, each adapting a mechanistic-interpretability technique from [Mike X Cohen's *50 ML projects to understand LLMs*](https://github.com/saurabhr/ML4LLM_book) to open, PHI-free health-science text. No fine-tuning, no APIs. Every project treats an LLM's tokens, embeddings, attention, and hidden states as data to analyze and visualize.
 
 Paired with the [ML4LLM book](https://github.com/saurabhr/ML4LLM_book), for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/).
 

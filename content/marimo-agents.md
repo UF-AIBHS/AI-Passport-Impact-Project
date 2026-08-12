@@ -1,10 +1,10 @@
 # marimo AI Agents
 
-marimo can connect external coding agents — Claude Code, Codex, Gemini, OpenCode — directly to its
+marimo can connect external coding agents (Claude Code, Codex, Gemini, OpenCode) directly to its
 notebook editor via the [Agent Client Protocol](https://agentclientprotocol.com/) (ACP), so they
 can read and write your notebook from a chat panel instead of a separate terminal window. Full
 docs: [docs.marimo.io/guides/editor_features/agents](https://docs.marimo.io/guides/editor_features/agents/).
-This is an experimental marimo feature — the API is still evolving.
+This is an experimental marimo feature. The API is still evolving.
 
 ## Supported agents
 
@@ -18,11 +18,11 @@ This is an experimental marimo feature — the API is still evolving.
 ## Setup
 
 1. Install and authenticate your agent of choice (see table above).
-2. Run its connect command in a terminal — leave it running.
+2. Run its connect command in a terminal and leave it running.
 3. In marimo, enable the agents feature flag under **Settings → Lab**.
 4. Click the agents icon in the notebook editor to open the chat panel, then pick your agent from
    the dropdown.
-5. Chat with it like any other coding agent — it can read and edit cells in the open notebook.
+5. Chat with it like any other coding agent: it can read and edit cells in the open notebook.
 
 Optional: to have the notebook re-run automatically after an agent edit, add this to
 `pyproject.toml`:

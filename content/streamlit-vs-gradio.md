@@ -1,12 +1,12 @@
 # Streamlit & Gradio: A Beginner's Guide
 
-Foundations and Clinical Application projects need a frontend, and you don't need to know JavaScript or CSS to build one. Both Streamlit and Gradio let you wrap a Python function in a working web UI in a few lines — pick whichever fits the project, or ask your AI coding agent to build the app in either and it'll happily scaffold it.
+Foundations and Clinical Application projects need a frontend, and you don't need to know JavaScript or CSS to build one. Both Streamlit and Gradio let you wrap a Python function in a working web UI in a few lines. Pick whichever fits the project, or ask your AI coding agent to build the app in either and it'll happily scaffold it.
 
 **Sources:** [docs.streamlit.io](https://docs.streamlit.io/), [gradio.app/guides/quickstart](https://www.gradio.app/guides/quickstart), comparison from [uibakery.io/blog/streamlit-vs-gradio](https://uibakery.io/blog/streamlit-vs-gradio).
 
 ## Streamlit
 
-General-purpose framework for interactive dashboards — you write a plain top-to-bottom Python script, and Streamlit re-runs it on every interaction.
+General-purpose framework for interactive dashboards: you write a plain top-to-bottom Python script, and Streamlit re-runs it on every interaction.
 
 ```bash
 pip install streamlit
@@ -34,7 +34,7 @@ Core building blocks:
 
 ## Gradio
 
-Purpose-built for wrapping a single ML function or model as a demo — you describe inputs and outputs, and Gradio generates the interface.
+Purpose-built for wrapping a single ML function or model as a demo: you describe inputs and outputs, and Gradio generates the interface.
 
 ```bash
 pip install --upgrade gradio
@@ -55,14 +55,14 @@ demo.launch()
 python app.py
 ```
 
-Opens at `http://localhost:7860`. Pass `demo.launch(share=True)` to get a public, shareable URL with no hosting setup — handy for showing a classmate or instructor a working demo without deploying anywhere.
+Opens at `http://localhost:7860`. Pass `demo.launch(share=True)` to get a public, shareable URL with no hosting setup, handy for showing a classmate or instructor a working demo without deploying anywhere.
 
 ## Which one for your project
 
 | | Streamlit | Gradio |
 |---|---|---|
 | **Best for** | Dashboards, multi-step or multi-page apps, anything with charts/tables | A single model or function behind a simple input → output UI |
-| **Customization** | High — layout, theming, many widget types | Lower — but you write less to get there |
+| **Customization** | High (layout, theming, many widget types) | Lower, but you write less to get there |
 | **Sharing** | Deploy to Streamlit Community Cloud (or run locally) | `share=True` gives a temporary public link instantly |
 | **Typical fit here** | Chatbots, multi-field forms, journal/trend dashboards (e.g. [Mood Journal Sentiment Tracker](basic-project-03-mood-journal-sentiment.md)) | Paste-in / upload-and-get-a-result tools (e.g. [Medical Term Definer](basic-project-01-medical-term-definer.md), [Radiology Report Flagger](clinical-application-project-05-radiology-report-flagger.md)) |
 

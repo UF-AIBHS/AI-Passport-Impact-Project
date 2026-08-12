@@ -1,6 +1,6 @@
 # Software Engineering Practices for Data Science
 
-Before (or alongside) either level, it's worth picking up the habits that keep research code reliable: dependency isolation, keeping credentials out of version control, and a standard project layout. The UF AIBHS program maintains a full walkthrough of this — this page just points at it rather than duplicating it.
+Before (or alongside) either level, it's worth picking up the habits that keep research code reliable: dependency isolation, keeping credentials out of version control, and a standard project layout. The UF AIBHS program maintains a full walkthrough of this. This page just points at it rather than duplicating it.
 
 **Source:** [uf-aibhs.github.io/extra-resources/software-engineering](https://uf-aibhs.github.io/extra-resources/software-engineering/)
 
