@@ -1,6 +1,6 @@
 # Clinical Application
 
-Seven mini-projects, ascending in complexity, building tools grounded in a real clinical workflow: patient-facing chat, note summarization, triage, drug safety, radiology review, and trial matching. Builds on the general-purpose skills from [Basic](basic-index.md). A frontend built by prompting an AI coding agent ([Claude Code](download-claude-code.md), [Codex](download-codex.md), or [VS Code agent mode](download-vscode.md)), talking to a backend built on **open-source models and datasets**. Early projects are pure prompting; later ones introduce fine-tuning a small open model.
+Seven mini-projects, ascending in complexity, building tools grounded in a real clinical workflow: patient-facing chat, note summarization, triage, drug safety, radiology review, and trial matching. Builds on the general-purpose skills from [Foundations](basic-index.md). A frontend built by prompting an AI coding agent ([Claude Code](download-claude-code.md), [Codex](download-codex.md), or [VS Code agent mode](download-vscode.md)), talking to a backend built on **open-source models and datasets**. Early projects are pure prompting; later ones introduce fine-tuning a small open model.
 
 | # | Project | Backend | Training? |
 |---|---|---|---|

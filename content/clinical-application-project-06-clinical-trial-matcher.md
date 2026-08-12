@@ -2,16 +2,14 @@
 
 *Mentors: To be announced*
 
-**Frontend:** Free-text input describing a patient's condition/situation, ranked list of matching trials.
+**Problem:** Real, currently-recruiting clinical trials are publicly searchable but written in legal-style eligibility text a patient can't quickly match against their own situation.
 
-**Backend:** [ClinicalTrials.gov API](https://clinicaltrials.gov/data-api/api) for the trial data, open-source [sentence-transformers](https://www.sbert.net/) embeddings to rank trials by relevance to the free-text description, LLM call to summarize each trial's eligibility criteria in plain language.
+**Context:** Pulls live data from the [ClinicalTrials.gov API](https://clinicaltrials.gov/data-api/api) (public, no key required), ranking with off-the-shelf open-source [sentence-transformers](https://www.sbert.net/) embeddings. No training — deliberately absent so students feel the difference between RAG-style ranking and an actually fine-tuned model, as in Projects 3 and 5.
 
-**Dataset:** ClinicalTrials.gov (live public API, no key required).
+**Goals:** Given a plain-language description of a patient's situation, surface and rank real, currently-recruiting trials, and summarize each one's eligibility criteria so a human doesn't have to parse legal-style trial text.
 
-**Training:** No — embeddings and the LLM are both used off-the-shelf here; the "training" step from Projects 4/7/8 is deliberately absent so students feel the difference between RAG-style ranking and an actually fine-tuned model.
+**Deliverables:** A free-text input + ranked-trial-list app built from (1) a ClinicalTrials.gov query for a broad condition match, (2) sentence-transformers embeddings of the query and each trial summary, ranked by cosine similarity, and (3) an LLM call per top-ranked trial to compress its eligibility criteria into a few plain-language bullets — the most "full pipeline" project before the capstone: API + embeddings + LLM, no training.
 
-**Goal:** Given a plain-language description of a patient's situation, surface and rank real, currently-recruiting trials, and summarize each one's eligibility criteria so a human doesn't have to parse legal-style trial text.
-
-**Plan:** Prompt your agent to build: (1) a ClinicalTrials.gov query for a broad condition match, (2) embed the free-text query and each trial's summary with sentence-transformers, rank by cosine similarity, (3) an LLM call per top-ranked trial to compress its eligibility criteria into a few plain-language bullets. This is the most "full pipeline" project before the capstone — API + embeddings + LLM, no training.
+*Showcase: TBD*
 
 [← Back to all Clinical Application projects](clinical-application-index.md)

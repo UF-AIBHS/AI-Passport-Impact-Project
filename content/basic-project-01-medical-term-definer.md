@@ -2,16 +2,14 @@
 
 *Mentors: To be announced*
 
-**Frontend:** Textbox for a pasted clinical note, output view with jargon terms highlighted and defined inline.
+**Problem:** Clinical notes are full of jargon and abbreviations a patient can't parse on their own, and there's no lightweight way to surface plain-language definitions without rewriting the note itself.
 
-**Backend:** Local open-source LLM via [Ollama](https://ollama.com) (e.g. Llama 3 8B) — no fine-tuning, prompting only.
+**Context:** Runs on [mtsamples](https://www.mtsamples.com/) medical transcription reports as test notes, using a local open-source LLM via [Ollama](https://ollama.com) (e.g. Llama 3 8B) — prompting only, no fine-tuning.
 
-**Dataset:** [mtsamples](https://www.mtsamples.com/) medical transcription reports, for test notes to paste in.
+**Goals:** Given a clinical note, flag jargon/abbreviations a patient wouldn't know and generate a one-line plain-language definition for each, without altering the rest of the note.
 
-**Training:** No.
+**Deliverables:** A single-page app — a textarea in, a rendered note out with `<mark>` spans over jargon terms (tooltip or footnote holds the definition) — with definitions coming from one LLM call per note, constrained by a system prompt to a term→definition JSON list that the frontend merges back into the note text.
 
-**Goal:** Given a clinical note, flag jargon/abbreviations a patient wouldn't know and generate a one-line plain-language definition for each, without altering the rest of the note.
+*Showcase: TBD*
 
-**Plan:** Prompt your coding agent to scaffold a single-page app: a textarea in, a rendered note out with `<mark>` spans over jargon terms (tooltip or footnote holds the definition). The definitions come from one LLM call per note using a system prompt that constrains output to a term→definition JSON list, which the frontend then merges back into the note text.
-
-[← Back to all Basic projects](basic-index.md)
+[← Back to all Foundations projects](basic-index.md)

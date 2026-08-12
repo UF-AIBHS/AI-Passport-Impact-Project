@@ -2,16 +2,14 @@
 
 *Mentors: To be announced*
 
-**Frontend:** Chat widget (message list + input box) embedded on a mock clinic page.
+**Problem:** Patients ask the same handful of pre-visit questions (what to bring, fasting rules, parking) over and over, and an ungrounded chatbot risks confidently making up an answer the clinic never gave.
 
-**Backend:** Open-source LLM + retrieval-augmented generation (RAG) over a small FAQ document, using [Chroma](https://www.trychroma.com/) as the local vector store.
+**Context:** Grounded in a short FAQ doc you write yourself (5-10 Q&As) — the point is demonstrating RAG grounding, not sourcing external data — using an open-source LLM with retrieval-augmented generation (RAG) over [Chroma](https://www.trychroma.com/) as the local vector store. No training.
 
-**Dataset:** A short FAQ doc you write yourself (5-10 Q&As on what to bring, fasting rules, parking, etc.) — the point is showing RAG grounding, not sourcing external data.
+**Goals:** Answer "what do I need to bring / can I eat before my visit" style questions grounded only in the clinic's own FAQ doc, and say "I don't know, call the office" when the answer isn't in it.
 
-**Training:** No.
+**Deliverables:** A chat widget (message list + input box) on a mock clinic page, backed by (1) an ingestion script that chunks the FAQ doc and embeds it into Chroma with an open sentence-transformers model, and (2) a chat endpoint that embeds the user question, retrieves top-k chunks, and stuffs them into the LLM prompt as context — tested to confirm it refuses questions outside the FAQ's scope.
 
-**Goal:** Answer "what do I need to bring / can I eat before my visit" style questions grounded only in the clinic's own FAQ doc, and say "I don't know, call the office" when the answer isn't in it.
-
-**Plan:** Prompt your agent to scaffold: (1) an ingestion script that chunks the FAQ doc and embeds it into Chroma with an open sentence-transformers model, (2) a chat endpoint that embeds the user question, retrieves top-k chunks, and stuffs them into the LLM prompt as context, (3) a minimal chat frontend. Test that it refuses to answer questions outside the FAQ's scope.
+*Showcase: TBD*
 
 [← Back to all Clinical Application projects](clinical-application-index.md)

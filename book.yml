@@ -1,5 +1,5 @@
 title: "AI Passport Impact Project"
-description: "Three tracks of mini-projects for the UF AI Passport for Health Science: Basic, Clinical Application, and Basic Science."
+description: "Three tracks of mini-projects for the UF AI Passport for Health Science: Foundations, Clinical Application, and Basic Science."
 authors:
   - name: Saurabh Ranjan
 
@@ -8,8 +8,8 @@ branch: main
 
 theme:
   palette:
-    primary: "#005496" # UF Health Blue (PMS 287)
-    accent: "#F37021"  # UF Health Orange (PMS 172)
+    primary: "#1A2655" # AI Passport navy (aipassport.org)
+    accent: "#2CA6A4"  # AI Passport teal (aipassport.org)
 
 launch_buttons:
   molab: false
@@ -39,7 +39,7 @@ toc:
         title: Software Engineering Practices for Data Science
       - file: content/better-code-better-science.md
         title: "Better Code, Better Science"
-  - section: "Basic"
+  - section: "Foundations"
     children:
       - file: content/basic-index.md
         title: Overview

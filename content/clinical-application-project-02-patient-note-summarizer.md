@@ -2,16 +2,14 @@
 
 *Mentors: To be announced*
 
-**Frontend:** File/text upload for a clinical note, summary panel with 3-5 bullet points.
+**Problem:** Dense clinical notes bury the handful of things a patient actually needs to act on — medications, follow-up, restrictions — under clinical shorthand most patients can't read.
 
-**Backend:** Open-source summarization model (e.g. `facebook/bart-large-cnn` via Hugging Face `transformers`), or LLM prompting with a "summarize for a patient, 5th-grade level" instruction.
+**Context:** Runs on [mtsamples](https://www.mtsamples.com/) for test notes, comparing an open-source summarization model (e.g. `facebook/bart-large-cnn` via Hugging Face `transformers`) against LLM prompting with a "summarize for a patient, 5th-grade level" instruction. No training.
 
-**Dataset:** [mtsamples](https://www.mtsamples.com/) for test notes.
+**Goals:** Turn a dense clinical note into a short, patient-facing bullet summary that keeps the actionable parts and drops the clinical shorthand.
 
-**Training:** No.
+**Deliverables:** A file/text upload flow with a 3-5 bullet summary panel, showing both backends' output side by side (dedicated summarization model vs. general LLM with a summarization prompt) so students can see where a task-specific model differs from prompting a general one.
 
-**Goal:** Turn a dense clinical note into a short, patient-facing bullet summary that keeps the actionable parts (medications, follow-up, restrictions) and drops the clinical shorthand.
-
-**Plan:** Prompt your agent to build an upload-and-summarize flow, then compare two backends side by side: the dedicated summarization model vs. a general LLM with a summarization prompt. Have the frontend show both outputs so students can see where a task-specific model differs from prompting a general model.
+*Showcase: TBD*
 
 [← Back to all Clinical Application projects](clinical-application-index.md)

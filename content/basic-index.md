@@ -1,4 +1,4 @@
-# Basic
+# Foundations
 
 Three foundational mini-projects. General-purpose prompting and fine-tuning skills, practiced on health-science text but not tied to a specific clinical workflow — the on-ramp before [Clinical Application](clinical-application-index.md) and [Basic Science](basic-science-index.md) projects. A frontend built by prompting an AI coding agent ([Claude Code](download-claude-code.md), [Codex](download-codex.md), or [VS Code agent mode](download-vscode.md)), talking to a backend built on **open-source models and datasets**.
 

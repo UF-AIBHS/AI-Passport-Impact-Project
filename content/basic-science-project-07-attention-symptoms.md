@@ -2,12 +2,14 @@
 
 *Mentors: To be announced*
 
-**ML4LLM anchor:** Ch.6 · proj35 — [Raw and softmax attention scores](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_helper.ipynb))
+**Problem:** A model may land on the right diagnosis-adjacent word for the wrong reason, and without inspecting attention there's no way to tell whether it actually looked at the symptom words a clinician would flag.
 
-**Dataset:** [MedDialog](https://huggingface.co/datasets/lavita/medical-meadow-medical-flashcards) patient messages describing symptoms
+**Context:** Built on [MedDialog](https://huggingface.co/datasets/lavita/ChatDoctor-HealthCareMagic-100k) patient messages describing symptoms (Hugging Face), anchored to ML4LLM Ch.6 · proj35 — [Raw and softmax attention scores](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_6/ml4llm_ch6_proj35_helper.ipynb)).
 
-**Question:** When the model generates a diagnosis-adjacent token, does attention actually concentrate on the symptom words a clinician would flag as relevant?
+**Goals:** When the model generates a diagnosis-adjacent token, does attention actually concentrate on the symptom words a clinician would flag as relevant?
 
-**Plan:** Extract raw and softmax attention scores for the token generated after a symptom description, as in proj35. Overlay attention weight on the input tokens and check whether the highest-attention tokens correspond to clinically salient symptom words versus filler text.
+**Deliverables:** A notebook that extracts raw and softmax attention scores for the token generated after a symptom description, overlays attention weight on the input tokens, and checks whether the highest-attention tokens correspond to clinically salient symptom words versus filler text.
+
+*Showcase: TBD*
 
 [← Back to all Basic Science projects](basic-science-index.md)

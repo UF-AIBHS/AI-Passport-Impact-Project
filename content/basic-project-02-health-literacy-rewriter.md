@@ -2,16 +2,14 @@
 
 *Mentors: To be announced*
 
-**Frontend:** Textbox for source text, a target-grade-level slider (e.g. grade 5 → grade 12), rewritten output.
+**Problem:** LLMs will happily claim a rewrite "hits a 6th-grade reading level" with no way to check the claim, so there's no way to trust a simplified note without an independent measurement.
 
-**Backend:** LLM prompting (grade level goes into the system prompt), verified with the open-source [`textstat`](https://pypi.org/project/textstat/) package (Flesch-Kincaid grade level) run on the output.
+**Context:** Needs no dataset — students paste their own source text or reuse mtsamples notes — and runs on LLM prompting (grade level goes into the system prompt) verified by the open-source [`textstat`](https://pypi.org/project/textstat/) package (Flesch-Kincaid grade level).
 
-**Dataset:** None required — students can paste their own source text, or reuse mtsamples notes.
+**Goals:** Rewrite text at a target reading level and *prove* it hit the target, instead of trusting the LLM's word for it.
 
-**Training:** No.
+**Deliverables:** A textbox + target-grade-level slider (e.g. grade 5 → grade 12) app with a verification loop: `textstat.flesch_kincaid_grade()` runs on the LLM's output, and if it misses the target by more than ~1 grade level, the app re-prompts with the measured gap ("that came out at grade 9, target was grade 6, simplify further") up to a few retries — measuring an LLM's output against an objective metric instead of trusting it blindly.
 
-**Goal:** Rewrite text at a target reading level and *prove* it hit the target, instead of trusting the LLM's word for it.
+*Showcase: TBD*
 
-**Plan:** Prompt your agent to build the slider + textbox flow, then add a verification loop: run `textstat.flesch_kincaid_grade()` on the LLM's output, and if it misses the target by more than ~1 grade level, re-prompt with the measured gap ("that came out at grade 9, target was grade 6, simplify further") up to a few retries. This teaches measuring an LLM's output against an objective metric instead of trusting it blindly.
-
-[← Back to all Basic projects](basic-index.md)
+[← Back to all Foundations projects](basic-index.md)

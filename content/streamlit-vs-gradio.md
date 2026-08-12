@@ -1,6 +1,6 @@
 # Streamlit & Gradio: A Beginner's Guide
 
-Basic and Clinical Application projects need a frontend, and you don't need to know JavaScript or CSS to build one. Both Streamlit and Gradio let you wrap a Python function in a working web UI in a few lines — pick whichever fits the project, or ask your AI coding agent to build the app in either and it'll happily scaffold it.
+Foundations and Clinical Application projects need a frontend, and you don't need to know JavaScript or CSS to build one. Both Streamlit and Gradio let you wrap a Python function in a working web UI in a few lines — pick whichever fits the project, or ask your AI coding agent to build the app in either and it'll happily scaffold it.
 
 **Sources:** [docs.streamlit.io](https://docs.streamlit.io/), [gradio.app/guides/quickstart](https://www.gradio.app/guides/quickstart), comparison from [uibakery.io/blog/streamlit-vs-gradio](https://uibakery.io/blog/streamlit-vs-gradio).
 
