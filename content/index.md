@@ -47,9 +47,12 @@ All three tracks (Foundations, Clinical Application, and Basic Science) are done
 | [Clinical Application](clinical-application-index.md) | The project's brief, plus which dataset/API it names | A full app: frontend (Streamlit/Gradio) + backend, wired to the named open dataset or API |
 | [Basic Science](basic-science-index.md) | The project's brief (Problem/Context/Goals/Deliverables) | A notebook that runs the analysis end to end and produces the plot the project asks for |
 
-Once the agent has a brief, work it the same way every time:
 
 1. Paste the brief.
 2. Let the agent propose a plan before it touches files.
 3. Review the diff.
 4. Iterate by pointing it at what's wrong rather than fixing code by hand.
+
+## Related
+
+- [UF AIBHS Faculty Hub](https://uf-aibhs.github.io/): the AIBHS program's main site (Canvas Resources, Faculty Handbook, HiPerGator, datasets, and more).
