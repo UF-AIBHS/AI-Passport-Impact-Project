@@ -53,7 +53,3 @@ Once the agent has a brief, work it the same way every time:
 2. Let the agent propose a plan before it touches files.
 3. Review the diff.
 4. Iterate by pointing it at what's wrong rather than fixing code by hand.
-
-## Related
-
-- [UF AIBHS Faculty Hub](https://uf-aibhs.github.io/): the AIBHS program's main site (Canvas Resources, Faculty Handbook, HiPerGator, datasets, and more).
