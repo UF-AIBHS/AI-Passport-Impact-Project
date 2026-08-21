@@ -40,4 +40,15 @@ cat >> _site/stylesheets/extra.css <<'EOF'
 [data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):active {
   color: #7086ff;
 }
+
+/* Same contrast problem again, this time on titles: the page <h1> and the
+ * header bar's site title both use --md-primary-fg-color, hardcoded to
+ * the raw #1A2655 navy in slate too. h2/h3 already use
+ * --md-default-fg-color (no fix needed there). Same #7086ff used for
+ * links above. */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-header__topic .md-ellipsis,
+[data-md-color-scheme="slate"] .md-header__topic > .md-header__button + .md-ellipsis {
+  color: #7086ff;
+}
 EOF
