@@ -18,4 +18,26 @@ cat >> _site/stylesheets/extra.css <<'EOF'
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
+
+/* Dark mode: book.yml's palette injection hardcodes the raw AI Passport
+ * navy (#1A2655) as --md-typeset-a-color / --md-primary-fg-color for the
+ * slate scheme too, so every link (prose links above, nav links, the
+ * active nav/TOC entry) reads as near-black-on-black — same issue already
+ * fixed in the UF-AIBHS.github.io sibling site's fix-theme-css.sh. Reuse
+ * that site's #7086ff: same hue as this navy, just lightened for contrast
+ * against the near-black background, so the two sibling books' dark-mode
+ * link color matches. */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link--active .md-nav__icon {
+  color: #7086ff !important;
+}
+[data-md-color-scheme="slate"] a.md-nav__link:not(.md-nav__link--active) {
+  color: #7086ff;
+}
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink),
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):hover,
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):focus,
+[data-md-color-scheme="slate"] .md-typeset a:not(.md-button):not(.headerlink):active {
+  color: #7086ff;
+}
 EOF
