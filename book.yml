@@ -21,6 +21,8 @@ toc:
     title: Home
   - section: "Setup & Resources"
     children:
+      - file: content/datasets.md
+        title: Datasets & APIs
       - file: content/download-claude-code.md
         title: Get Claude Code
       - file: content/download-codex.md
