@@ -20,6 +20,7 @@ Not sure which one? Start with Foundations. Move to Clinical Application if you 
 
 **Tooling**
 
+- Looking for a specific dataset or API a project names? See [Datasets & APIs](datasets.md).
 - New to the tooling? Start by picking an agent: [Claude Code](download-claude-code.md), [Codex](download-codex.md), or [VS Code agent mode](download-vscode.md).
 - Building a Foundations or Clinical Application frontend? See [Streamlit & Gradio: A Beginner's Guide](streamlit-vs-gradio.md) to pick a UI framework.
 - For hands-on environment setup, see [Virtual Environments & Packages with uv](uv-environments.md).
