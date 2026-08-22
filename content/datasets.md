@@ -9,7 +9,7 @@ Every dataset, model checkpoint, and public API named across the twenty projects
 | [mtsamples](https://www.mtsamples.com/) | Foundations 1, 2 · Clinical App 2 · Basic Science 1, 2, 5 | Scrape/download from the site | None stated | Free medical transcription sample reports, widely used as a de-identified teaching corpus — treat as coursework-only |
 | [CMS ICD-10-CM code descriptions](https://www.cms.gov/medicare/coding-billing/icd-10-codes) | Basic Science 1 | Free download from CMS | Public domain (17 U.S.C. §105) | US federal government public-use file |
 | [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) | Foundations 3 | `datasets.load_dataset` (Hugging Face) | Custom — HF card: "should be used for educational and research purposes only" | General-domain (not health-specific) emotion labels; fine for this coursework project, not for redistributing the fine-tuned classifier beyond it |
-| [`bhadresh-savani/distilbert-base-uncased-emotion`](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) | Foundations 3 | Hugging Face model hub | Apache-2.0 | Pre-trained checkpoint on `dair-ai/emotion`; base for further fine-tuning |
+| [bhadresh-savani/distilbert-base-uncased-emotion](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) | Foundations 3 | Hugging Face model hub | Apache-2.0 | Pre-trained checkpoint on `dair-ai/emotion`; base for further fine-tuning |
 | [Symptom2Disease](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis) | Clinical App 3 · Basic Science 7 | `datasets.load_dataset` (Hugging Face) | Apache-2.0 | Synthetic/Gretel-generated symptom-to-diagnosis pairs, 22 categories |
 | [openFDA drug label API](https://open.fda.gov/apis/drug/label/) | Clinical App 4 | REST API, free, no key required | Public domain / CC0-1.0 (openFDA's own terms) | Official `drug_interactions` label sections per drug; 240 requests/min, 1,000/day without a key |
 | [DDInter 2.0](https://ddinter2.scbdd.com/) | Clinical App 4 (cross-check) | Free download | Not stated | Peer-reviewed ([*Nucleic Acids Research*](https://academic.oup.com/nar/article/53/D1/D1356/7740584)), 300,000+ drug-drug interaction records with mechanism/management notes |
@@ -34,6 +34,6 @@ Every dataset, model checkpoint, and public API named across the twenty projects
 ## Related
 
 - The [ML4LLM book](https://github.com/saurabhr/ML4LLM_book) pairs each Basic Science project with a reference notebook and its own dataset-loading code.
-- [UF AIBHS Faculty Hub — Datasets](https://uf-aibhs.github.io/datasets/): a separate collection of classic tabular ML health datasets (Heart Disease, Diabetes, MIMIC-IV, etc.) used in the AIBHS coursework, not this project.
+- [More Datasets](more-datasets.md): a separate collection of classic, tabular ML health datasets (Heart Disease, Diabetes, MIMIC-IV, etc.) — not used by any project on this site, but useful for practicing core ML concepts before working with the messier text/clinical data above.
 
 [← Back to home](index.md)

@@ -1,6 +1,6 @@
 # AI Passport Impact Project
 
-Twenty mini-projects for the [UF AI Passport for Health Science](https://prismap.medicine.ufl.edu/research/ai-passport/).
+Twenty mini-projects for the [UF AI Passport for Health Science](https://aipassport.org/).
 
 ![Three project tracks: Foundations, Clinical Application, Basic Science](images/three-tracks.svg)
 

@@ -23,6 +23,8 @@ toc:
     children:
       - file: content/datasets.md
         title: Datasets & APIs
+      - file: content/more-datasets.md
+        title: More Datasets
       - file: content/download-claude-code.md
         title: Get Claude Code
       - file: content/download-codex.md
