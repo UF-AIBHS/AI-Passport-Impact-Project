@@ -10,14 +10,13 @@ Every dataset, model checkpoint, and public API named across the twenty projects
 | [CMS ICD-10-CM code descriptions](https://www.cms.gov/medicare/coding-billing/icd-10-codes) | Basic Science 1 | Free download from CMS | US federal government public-use file — public domain domestically (17 U.S.C. §105) |
 | [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) | Foundations 3 | `datasets.load_dataset` (Hugging Face) | HF card restricts it to "educational and research purposes only" — fine for this coursework project, not for redistributing the fine-tuned classifier beyond it; general-domain (not health-specific) emotion labels |
 | [`bhadresh-savani/distilbert-base-uncased-emotion`](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) | Foundations 3 | Hugging Face model hub | Pre-trained checkpoint on `dair-ai/emotion`; base for further fine-tuning |
-| [Symptom2Disease](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis) | Clinical App 3 | `datasets.load_dataset` (Hugging Face) | Synthetic/Gretel-generated symptom-to-diagnosis pairs, 22 categories; open on Hugging Face |
+| [Symptom2Disease](https://huggingface.co/datasets/gretelai/symptom_to_diagnosis) | Clinical App 3 · Basic Science 7 | `datasets.load_dataset` (Hugging Face) | Synthetic/Gretel-generated symptom-to-diagnosis pairs, 22 categories, Apache-2.0 licensed |
 | [openFDA drug label API](https://open.fda.gov/apis/drug/label/) | Clinical App 4 | REST API, free, no key required | US federal government data; official `drug_interactions` label sections per drug |
 | [DDInter 2.0](https://ddinter2.scbdd.com/) | Clinical App 4 (cross-check) | Free download | Peer-reviewed ([*Nucleic Acids Research*](https://academic.oup.com/nar/article/53/D1/D1356/7740584)), 300,000+ drug-drug interaction records with mechanism/management notes |
 | [Open-I](https://openi.nlm.nih.gov/) | Clinical App 5 · Basic Science 8 | Free download/API (NLM, Indiana University) | De-identified chest X-ray radiology reports; public, no credentialing |
 | [ClinicalTrials.gov API](https://clinicaltrials.gov/data-api/api) | Clinical App 6 | REST API, free, no key required | Official NIH/NLM registry of currently-recruiting trials, queried live |
 | [MedQuAD](https://github.com/abachaa/MedQuAD) | Clinical App 7 | Clone/download from GitHub | Public medical Q&A pairs assembled from NIH sources for research use |
-| [MedDialog (English)](https://huggingface.co/datasets/UCSD26/medical_dialog) | Basic Science 3 | `datasets.load_dataset` (Hugging Face) | ~260k real patient–doctor consultations, each with a genuine multi-turn `dialogue_turns` exchange; license unspecified on the HF card, treat as coursework-only |
-| [HealthCareMagic-100k](https://huggingface.co/datasets/lavita/ChatDoctor-HealthCareMagic-100k) | Basic Science 7 | `datasets.load_dataset` (Hugging Face) | 100k+ real single-turn patient-question/doctor-answer pairs; open on Hugging Face |
+| [MTS-Dialog](https://github.com/abachaa/MTS-Dialog) | Basic Science 3 | Clone/download from GitHub | ~1,200 expert-authored patient–doctor transcripts, each a genuine multi-turn `Doctor:`/`Patient:` exchange; CC-BY-4.0, attribution required |
 | [DailyMed](https://dailymed.nlm.nih.gov/) | Basic Science 4 | Free download/API (NLM) | Official FDA drug label text (warnings, indications); public domain federal data |
 | [PubMedQA](https://pubmedqa.github.io/) | Basic Science 6 | Free download | Yes/no/maybe biomedical QA over PubMed abstracts; open research dataset — contexts need curating down to end on a diagnosis term for this project's method, not usable as-is |
 | [MedlinePlus](https://medlineplus.gov/) | Basic Science 9 | Free download/scrape (NLM) | Consumer-facing health articles, paired here against matched PubMed abstracts; public domain federal data |
@@ -28,7 +27,8 @@ Every dataset, model checkpoint, and public API named across the twenty projects
 
 - This is not legal advice. `mtsamples` in particular has no formal license file — treat it as a teaching corpus, not something to redistribute or publish results from outside coursework.
 - "Public domain" for CMS/NLM/FDA data (ICD-10-CM, DailyMed, MedlinePlus, openFDA) means the data itself carries no US copyright restriction; it doesn't waive the agency's own citation or data-quality guidance.
-- Hugging Face-hosted datasets (`dair-ai/emotion`, Symptom2Disease, MedDialog) each carry their own dataset-card terms — check the card before reusing outside this project.
+- Hugging Face-hosted datasets (`dair-ai/emotion`, Symptom2Disease) each carry their own dataset-card terms — check the card before reusing outside this project.
+- MTS-Dialog is CC-BY-4.0 — reuse and adaptation are fine, but any redistribution (including a published notebook with the data embedded) needs an attribution notice per the license.
 - APIs with no key requirement (openFDA, ClinicalTrials.gov) still have documented rate limits; don't hammer them in a tight loop.
 
 ## Related
