@@ -4,7 +4,7 @@
 
 **Problem:** "This topic is hard to explain to patients" is a judgment call today, with no computable score behind it.
 
-**Context:** Built on [MedlinePlus](https://medlineplus.gov/) consumer health articles paired with matched PubMed abstracts on the same condition, anchored to ML4LLM Ch.3 · proj13: [Word similarity via distance and cosine](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_3/ml4llm_ch3_proj13_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_3/ml4llm_ch3_proj13_helper.ipynb)).
+**Context:** Built on [MedlinePlus](https://medlineplus.gov/) consumer health articles paired with matched PubMed abstracts pulled via the [NCBI E-utilities API](https://www.ncbi.nlm.nih.gov/books/NBK25501/) (`esearch`/`efetch`, free, no key required for light use) on the same condition, anchored to ML4LLM Ch.3 · proj13: [Word similarity via distance and cosine](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_3/ml4llm_ch3_proj13_solution.ipynb) ([helper](https://github.com/saurabhr/ML4LLM_book/blob/main/chapter_3/ml4llm_ch3_proj13_helper.ipynb)).
 
 **Goals:** Can the plain-language vs. clinical-language gap for the same disease be measured as embedding distance, giving a computable health-literacy score?
 

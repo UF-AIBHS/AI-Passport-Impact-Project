@@ -8,7 +8,7 @@
 
 **Goals:** At what layer depth does injecting noise into hidden states collapse the model's ability to predict the correct diagnosis term?
 
-**Deliverables:** A notebook that, for a set of PubMedQA contexts ending in a diagnosis term, injects noise/scaling at each layer in turn, measures how prediction accuracy for the correct diagnosis token degrades by layer, and plots accuracy vs. layer depth to locate where diagnosis-relevant information becomes concentrated.
+**Deliverables:** A notebook that, for a set of PubMedQA contexts ending in a diagnosis term — PubMedQA's `context`/`long_answer` fields aren't curated for this out of the box, so the first step is filtering/truncating a subset so each one ends right before the diagnosis word — injects noise/scaling at each layer in turn, measures how prediction accuracy for the correct diagnosis token degrades by layer, and plots accuracy vs. layer depth to locate where diagnosis-relevant information becomes concentrated.
 
 *Showcase: TBD*
 
